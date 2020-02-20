@@ -1,6 +1,15 @@
-def a():
+"""
+hoge
+"""
+
+
+def func_a():
+    """関数a
+    """
     return 'a'
 
 
-def b(n):
-    return 2 * n
+def func_b(num):
+    """関数b
+    """
+    return 2 * num

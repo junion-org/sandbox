@@ -1,9 +1,9 @@
 from sandbox import hoge
 
 
-def test_a():
-    assert hoge.a() == 'a'
+def test_func_a():
+    assert hoge.func_a() == 'a'
 
 
-def test_b():
-    assert hoge.b(1) == 2
+def test_func_b():
+    assert hoge.func_b(1) == 2
